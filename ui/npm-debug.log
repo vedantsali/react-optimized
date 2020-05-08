@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\VSali\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'test'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.13.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle internal-poc@1.0.0~pretest: internal-poc@1.0.0
+6 silly lifecycle internal-poc@1.0.0~pretest: no script for pretest, continuing
+7 info lifecycle internal-poc@1.0.0~test: internal-poc@1.0.0
+8 verbose lifecycle internal-poc@1.0.0~test: unsafe-perm in lifecycle true
+9 verbose lifecycle internal-poc@1.0.0~test: PATH: C:\Users\VSali\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\New folder\clean copy\boilerplate_02\ui\node_modules\.bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\VSali\AppData\Local\Programs\Fiddler;C:\Users\VSali\AppData\Local\GitHubDesktop;C:\Users\VSali\AppData\Local\Programs\Git\cmd;C:\Users\VSali\AppData\Local\Programs\Git\;C:\Users\crooks-eagle\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\New folder\apache-maven-3.6.2\bin;C:\Users\VSali\AppData\Roaming\npm
+10 verbose lifecycle internal-poc@1.0.0~test: CWD: C:\New folder\clean copy\boilerplate_02\ui
+11 silly lifecycle internal-poc@1.0.0~test: Args: [ '/d /s /c', 'jest --config config/jest.config.json --coverage' ]
+12 silly lifecycle internal-poc@1.0.0~test: Returned: code: 1  signal: null
+13 info lifecycle internal-poc@1.0.0~test: Failed to exec test script
+14 verbose stack Error: internal-poc@1.0.0 test: `jest --config config/jest.config.json --coverage`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\VSali\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.emit (events.js:210:5)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\VSali\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at ChildProcess.emit (events.js:210:5)
+14 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+15 verbose pkgid internal-poc@1.0.0
+16 verbose cwd C:\New folder\clean copy\boilerplate_02\ui
+17 error Windows_NT 10.0.16299
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\VSali\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "test"
+19 error node v12.13.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error internal-poc@1.0.0 test: `jest --config config/jest.config.json --coverage`
+22 error Exit status 1
+23 error Failed at the internal-poc@1.0.0 test script 'jest --config config/jest.config.json --coverage'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the internal-poc package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     jest --config config/jest.config.json --coverage
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs internal-poc
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls internal-poc
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
